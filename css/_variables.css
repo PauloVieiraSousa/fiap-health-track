@@ -1,0 +1,10 @@
+:root {
+    --primary: #2e7d32;
+    --primary-light: #60ad5e;
+    --primary-dark: #005005;
+    --gray: #f1f1f1;
+    --secundary: #ffffff;
+    
+    --font-family-montserrat: "Montserrat, sans-serif";
+    --font-family-roboto: 'Roboto', sans-serif;
+}

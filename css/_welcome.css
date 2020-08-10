@@ -1,0 +1,22 @@
+@import "./_variables.css";
+
+.b-welcome {
+    width: 300px;
+    height: 200px;
+}
+
+.b-welcome__title, .b-welcome__subtitle {
+    text-align: center;
+}
+
+
+.b-welcome__title {
+    font-family: var(--font-family-roboto);
+    font-size: 5rem;
+    color: var(--secundary);
+    text-align: center;
+    text-shadow: 3px 3px 2px var(--primary-dark);
+}
+.b-welcome__subtitle{
+    color: var(--secundary);
+}

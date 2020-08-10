@@ -1,0 +1,56 @@
+@import "./_variables.css";
+
+
+.b-logo__title {
+    width: 160px;
+    font-size: 3rem;
+    font-family: var(--font-family-roboto);
+    color: var(--secundary);
+    text-align: center;
+    text-shadow: 3px 3px 2px var(--primary-dark);;
+}
+
+
+.b-login {
+    width: calc(100% - 40px);
+    max-width: 400px;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+.b-login__form-label {
+    font-size: .8rem;
+}
+.b-login header {
+    text-align: center;
+    border-bottom: 1px solid var(--primary-dark);
+}
+
+.b-login__title {
+    font-size: 1.4rem;
+}
+
+.b-nav__list{
+    padding: 0px;
+    list-style-type: none;
+}
+
+.b-nav__list-item{
+    display: inline-block;
+}
+
+.b-nav__link--activated {
+    color: var(--primary) !important;
+}
+
+.b-nav__link {
+    color:white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: var(--primary-dark);
+}
+
+.b-nav__link:hover {
+    background: var(--primary-dark);
+    color: var(--primary) !important;
+}

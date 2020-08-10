@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font-family-roboto);
+    background-color: var(--primary);
+}
+
+.navbar__logo {
+    font-family: var(--font-family-roboto);
+    font-size: 1.5rem;
+    color: var(--primary);
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--primary-dark);
+}
+.bg-green-linear{
+    background-image: linear-gradient(to right, var(--primary-light) , var(--primary));
+}
+
+.box-objective {
+    min-height: 300px;
+}
+
+.box-item__title{
+    font-size: 1rem;
+}
+
+.box-round {
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+
+.congratulation h1 {
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px var(--primary-dark);
+}
+
+.b-meta {
+    width: 20%;
+    padding: 10px;
+    background-color: red;
+}
+.b-meta__title{
+    font-size: 1.1rem;
+}
+
+.b-logo{
+    font-family: var(--font-family-roboto);
+    font-size: 1.6rem;
+}
+.bg-silver {
+    background-color: var(--gray);
+}
+
+.page {
+    display: flex;
+}
+
+.u-height{
+    height: 100% !important;
+}
+
+.welcome {
+    width: 200px;
+    height: 100px;
+    
+}
+
+
+.box-shadow {
+    -webkit-box-shadow: 4px 7px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 5px -5px rgba(0,0,0,0.75);
+}
